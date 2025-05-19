@@ -86,7 +86,7 @@ class DataManager:
         self.storage.write(data)
 
 if __name__ == "__main__":
-    # SRP
+   
     b = Book("1984", "Дж. Оруэлл")
     printer = BookPrinter()
     saver = BookSaver()
